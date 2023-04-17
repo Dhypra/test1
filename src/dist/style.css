@@ -1,0 +1,57 @@
+
+
+.pomodoro {
+    border-radius: 10px;
+    border-bottom: solid #555 5px;
+    border-right: solid #555 5px;
+    border-top: solid #888 1px;
+    border-left: solid #888 1px;
+    margin: 10px auto;
+    width: 45%;
+}
+
+.container {
+    margin: 3% auto;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.col {
+    margin: 15px auto;
+}
+
+.st {
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.str {
+    padding: 7px;
+    background: rgba(50, 50, 50, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.time {
+    font-size: 7rem;
+}
+
+#demo {
+    font-size: 8rem;
+    text-align: center;
+}
+
+.btn {
+    padding: 3% 0;
+    margin: 20px auto 5px;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.33);
+    border-radius: 20px;
+}
