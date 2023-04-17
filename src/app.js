@@ -7,17 +7,17 @@ app.use("/.netlify/functions/app",router)
 app.use(express.static("src/dist"));
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/dist/index.html")
+    res.sendFile(__dirname + "src/dist/index.html")
 })
 app.post("/", (req, res) => {
     res.redirect("/")
 })
 app.post("/short", (req, res) => {
-    res.sendFile(__dirname + "/dist/short.html")
+    res.sendFile(__dirname + "src/dist/short.html")
 })
 
 app.post("/long", (req, res) => {
-    res.sendFile(__dirname + "/dist/long.html")
+    res.sendFile(__dirname + "src/dist/long.html")
 })
 
 app.listen(3000, (req, res) => {
